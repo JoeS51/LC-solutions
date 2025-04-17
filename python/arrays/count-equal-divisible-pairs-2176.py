@@ -8,3 +8,9 @@ class Solution:
                     count += 1
         return count
 # there is only a O(n^2) solution
+
+        count  = 0
+        for i,j in combinations(range(len(nums)),2):
+            print(str(i) + " " + str(j))
+        return count
+# combinations is a cool python method that lets you generate pairs of combinations for a list
