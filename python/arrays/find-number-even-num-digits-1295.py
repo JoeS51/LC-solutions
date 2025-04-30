@@ -6,5 +6,5 @@ class Solution:
                 count += 1
         return count
 
-# runtime: O(n)
+# runtime: O(n * log m) apparently converting int to str is log time
 # spacetime: O(1)
