@@ -16,7 +16,6 @@ class Solution:
 
         memo = {}
 
-        @cache
         def dfs(curr):
             nonlocal has_cycle
             # cycle
@@ -32,8 +31,10 @@ class Solution:
             color_counts = [0] * 26
 
             if curr not in adj_list:
+                visited[curr] = 2
                 i = ord(val_map[curr]) - ord('a')
                 color_counts[i] += 1
+                memo[curr] = color_counts
                 return color_counts
             for neighbor in adj_list[curr]:
                 child_counts = dfs(neighbor)
@@ -52,4 +53,3 @@ class Solution:
         if has_cycle:
             return -1 
         return res
-
