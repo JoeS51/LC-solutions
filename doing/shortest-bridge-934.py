@@ -28,3 +28,15 @@
 # 2 <= n <= 100
 # grid[i][j] is either 0 or 1.
 # There are exactly two islands in grid.
+from typing import List
+
+class Solution:
+    def shortestBridge(self, grid: List[List[int]]) -> int:
+        print("test")
+        return -1
+
+
+if __name__ == "__main__":
+    sol = Solution()
+    arr = sol.shortestBridge(None)
+
