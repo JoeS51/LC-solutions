@@ -43,7 +43,7 @@ class Solution:
         return min_node
         
 
-# optimal solution (dont even need to do dfs
+# optimal solution (dont even need to do dfs)
 
 class Solution:
     def closestMeetingNode(self, edges: List[int], node1: int, node2: int) -> int:
