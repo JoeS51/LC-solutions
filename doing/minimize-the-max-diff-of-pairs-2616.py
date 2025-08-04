@@ -24,3 +24,8 @@
 # 1 <= nums.length <= 105
 # 0 <= nums[i] <= 109
 # 0 <= p <= (nums.length)/2
+
+# ex 1:
+[1,1,2,3,7,10]
+class Solution:
+    def 
