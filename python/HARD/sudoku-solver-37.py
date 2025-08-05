@@ -55,3 +55,5 @@ class Solution:
 
         
 
+# time complexity: O(9^E)
+# space complexity: O(E) just the empty list
